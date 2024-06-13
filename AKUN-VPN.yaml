@@ -38,3 +38,19 @@ proxies:
     path: /trojan-ws
     headers:
         Host: rlzftawa.pisangku.studio
+- name: BUG-4ILPED SG
+  type: vmess
+  server: 104.26.6.171
+  port: 80
+  uuid: 941cb9c6-6887-4613-805b-e88d047ad177
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  servername: rzlftwaa.pisangku.studio
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: rzlftwaa.pisangku.studio
